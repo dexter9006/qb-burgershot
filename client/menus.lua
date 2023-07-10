@@ -27,12 +27,12 @@ Citizen.CreateThread(function()
 		distance = 1.5
 	})
 
-		exports['qb-target']:AddBoxZone("burger_tray_1", vector3(-1195.29, -892.31, 14.0), 0.5, 0.7, {
-			name = "burger_tray_1",
-			heading=125.0,
-			debugPoly = false,
-			minZ=13.8,
-			maxZ=14.3,
+	exports['qb-target']:AddBoxZone("burger_tray_1", vector3(-1195.29, -892.31, 14.0), 0.5, 0.7, {
+        name = "burger_tray_1",
+        heading=125.0,
+        debugPoly=false,
+        minZ=13.8,
+        maxZ=14.3,
 		}, {
 			options = {
 			    {
