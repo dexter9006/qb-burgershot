@@ -62,9 +62,9 @@ RegisterNetEvent("qb-burgershot:Tray1", function()
     })
 end)
 
-RegisterNetEvent("qb-burgershot:Tray4", function()
-    TriggerEvent("inventory:client:SetCurrentStash", "burgertray4")
-    TriggerServerEvent("inventory:server:OpenInventory", "stash", "burgertray4", {
+RegisterNetEvent("qb-burgershot:Tray2", function()
+    TriggerEvent("inventory:client:SetCurrentStash", "burgertray2")
+    TriggerServerEvent("inventory:server:OpenInventory", "stash", "burgertray2", {
         maxweight = 10000,
         slots = 6,
     })
