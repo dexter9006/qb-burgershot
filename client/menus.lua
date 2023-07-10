@@ -459,13 +459,13 @@ AddEventHandler("qb-burgershot:bill", function()
 		submitText = "Bill",
         inputs = {
             {
-                text = "Server ID(#)",
+                text = "ID(#)",
 				name = "citizenid", -- name of the input should be unique otherwise it might override
                 type = "text", -- type of the input
                 isRequired = true -- Optional [accepted values: true | false] but will submit the form if no value is inputted
             },
             {
-                text = "Bill Price ($)", -- text you want to be displayed as a place holder
+                text = "Montant Facture ($)", -- text you want to be displayed as a place holder
                 name = "billprice", -- name of the input should be unique otherwise it might override
                 type = "number", -- type of the input - number will not allow non-number characters in the field so only accepts 0-9
                 isRequired = false -- Optional [accepted values: true | false] but will submit the form if no value is inputted
