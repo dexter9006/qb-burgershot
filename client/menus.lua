@@ -329,7 +329,7 @@ RegisterNetEvent('qb-burgershot-menu:Burgers', function(data)
     exports['qb-menu']:openMenu({
         {
             
-            header = "| Available Burgers |",
+            header = "| Burgers Disponibles |",
             isMenuHeader = true, -- Set to true to make a nonclickable title
         },
         {
@@ -382,7 +382,7 @@ RegisterNetEvent('qb-burgershot-menu:Burgers', function(data)
         },
         {
             id = 7,
-            header = "Close (ESC)",
+            header = "Fermer (ESC)",
             isMenuHeader = true, -- Set to true to make a nonclickable title
         },
     })
@@ -393,12 +393,12 @@ RegisterNetEvent('qb-burgershot-menu:OrderMenu', function(data)
     exports['qb-menu']:openMenu({
         {
             
-            header = "| Fridge |",
+            header = "| Frigo |",
             isMenuHeader = true, -- Set to true to make a nonclickable title
         },
         {
             
-            header = "• Order Items",
+            header = "• Acheter Ingrédients",
             txt = "Order New Ingredients!",
             params = {
                 event = "qb-burgershot:shop"
@@ -406,14 +406,14 @@ RegisterNetEvent('qb-burgershot-menu:OrderMenu', function(data)
         },
         {
            
-            header = "• Open Fridge",
+            header = "• Ouvrir Frigo",
             txt = "See what you have in storage",
             params = {
                 event = "qb-burgershot:Storage2"
             }
         },
         {
-            header = "Close (ESC)",
+            header = "Fermer (ESC)",
             isMenuHeader = true, -- Set to true to make a nonclickable title
         },
     })
@@ -423,12 +423,12 @@ RegisterNetEvent('qb-burgershot-menu:DrinkMenu', function(data)
     exports['qb-menu']:openMenu({
         {
             id = 0,
-            header = "| Drink Menu |",
+            header = "| Menu Boissons |",
             isMenuHeader = true, -- Set to true to make a nonclickable title
         },
         {
             
-            header = "• Soft Drink",
+            header = "• Soft Drinks",
             txt = "Soda Syrup",
             params = {
                 event = "qb-burgershot:SoftDrink"
@@ -436,7 +436,7 @@ RegisterNetEvent('qb-burgershot-menu:DrinkMenu', function(data)
         },
         {
             
-            header = "• Milkshake",
+            header = "• Milkshakes",
             txt = "Milkshake Formula",
             params = {
                 event = "qb-burgershot:mShake"
@@ -444,7 +444,7 @@ RegisterNetEvent('qb-burgershot-menu:DrinkMenu', function(data)
         },
         {
            
-            header = "Close (ESC)",
+            header = "Fermer (ESC)",
             isMenuHeader = true, -- Set to true to make a nonclickable title
         },
     })
