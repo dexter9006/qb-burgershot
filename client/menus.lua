@@ -33,7 +33,7 @@ Citizen.CreateThread(function()
 		    {  
 			event = "qb-burgershot:DutyB",
 			icon = "far fa-clipboard",
-			label = "Clock On/Off",
+			label = "Service On/Off",
 			job = Config.Job,
 		    },
 		},
@@ -51,7 +51,7 @@ Citizen.CreateThread(function()
 			    {
 				event = "qb-burgershot:Tray1",
 				icon = "far fa-clipboard",
-				label = "Tray 1",
+				label = "Plateau 1",
 			    },
 			},
 			distance = 1.5
@@ -68,7 +68,7 @@ Citizen.CreateThread(function()
 		    {
 			event = "qb-burgershot:Tray2",
 			icon = "far fa-clipboard",
-			label = "Tray 2",
+			label = "Plateau 2",
 		    },
 		},
 		distance = 1.5
@@ -85,7 +85,7 @@ Citizen.CreateThread(function()
 		    {
 			event = "qb-burgershot:Tray3",
 			icon = "far fa-clipboard",
-			label = "Tray 3",
+			label = "Plateau 3",
 		    },
 		},
 		distance = 3.5
@@ -103,7 +103,7 @@ Citizen.CreateThread(function()
 			{
 				event = "qb-burgershot:PattyFry",
 				icon = "fas fa-hamburger",
-				label = "Burger Cook Station",
+				label = "Cuisinière",
 				job = Config.Job,
 			},
 		},
@@ -121,7 +121,7 @@ Citizen.CreateThread(function()
 			{
 				event = "qb-burgershot:PattyFry",
 				icon = "fas fa-hamburger",
-				label = "Burger Cook Station 2",
+				label = "Cuisinière 2",
 				job = Config.Job,
 			},
 		},
@@ -139,7 +139,7 @@ Citizen.CreateThread(function()
 			{
 			    event = "qb-burgershot:Fries",
 			    icon = "fas fa-box",
-			    label = "Make Fries",
+			    label = "Faire des Frites",
 			    job = Config.Job,
 			},
 		    },
@@ -158,7 +158,7 @@ Citizen.CreateThread(function()
 		    {
 			event = "qb-burgershot-menu:DrinkMenu",
 			icon = "fas fa-filter",
-			label = "Make Some Drinks",
+			label = "Machine à Boissons",
 			job = Config.Job,
 		    },
 		},
@@ -176,7 +176,7 @@ Citizen.CreateThread(function()
                     {
                         event = "qb-burgershot-menu:DrinkMenu",
                         icon = "fas fa-filter",
-                        label = "Make Some Drinks",
+                        label = "Machine à Boissons",
                         job = Config.Job,
                     },
                 },
@@ -195,7 +195,7 @@ Citizen.CreateThread(function()
                     {
                         event = "qb-burgershot-menu:OrderMenu",
                         icon = "fas fa-laptop",
-                        label = "Order Ingredients!",
+                        label = "Réserve",
                         job = Config.Job,
                     },
                 },
@@ -213,7 +213,7 @@ Citizen.CreateThread(function()
                     {
                         event = "qb-burgershot:Storage",
                         icon = "fas fa-box",
-                        label = "Storage",
+                        label = "Stockage",
                         job = Config.Job,
                     },
                 },
