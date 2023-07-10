@@ -103,7 +103,7 @@ RegisterNetEvent("qb-burgershot:CreateMurderMeal", function()
     if onDuty then
     	QBCore.Functions.TriggerCallback('qb-burgershot:server:get:ingredientMurderMeal', function(HasItems)  
     		if HasItems then
-				QBCore.Functions.Progressbar("pickup_sla", "Making A Murder Meal..", 4000, false, false, {
+				QBCore.Functions.Progressbar("pickup_sla", "En train de prépare un Murder Meal..", 4000, false, false, {
 					disableMovement = true,
 					disableCarMovement = true,
 					disableMouse = false,
@@ -114,16 +114,16 @@ RegisterNetEvent("qb-burgershot:CreateMurderMeal", function()
 					flags = 8,
 				}, {}, {}, function()
 					TriggerServerEvent('qb-burgershot:create:murdermeal')
-                    QBCore.Functions.Notify("You made a A Murder Meal", "success")
+                    QBCore.Functions.Notify("Vous avez préparé A Murder Meal", "success")
 				end, function()
-					QBCore.Functions.Notify("Cancelled..", "error")
+					QBCore.Functions.Notify("Annulation..", "error")
 				end)
 			else
    				QBCore.Functions.Notify("You dont have the items to make this", "error")
 			end
 		end)
 	else
-		QBCore.Functions.Notify("You must be Clocked into work", "error")
+		QBCore.Functions.Notify("Vous devez être en service", "error")
 	end
 end)
 
@@ -131,7 +131,7 @@ RegisterNetEvent("qb-burgershot:BleederBurger", function()
     if onDuty then
     	QBCore.Functions.TriggerCallback('qb-burgershot:server:get:ingredientBurger', function(HasItems)  
     		if HasItems then
-				QBCore.Functions.Progressbar("pickup_sla", "Making Burgers..", 4000, false, false, {
+				QBCore.Functions.Progressbar("pickup_sla", "En train de prépare un Bleeder Burgers..", 4000, false, false, {
 					disableMovement = true,
 					disableCarMovement = true,
 					disableMouse = false,
@@ -142,16 +142,16 @@ RegisterNetEvent("qb-burgershot:BleederBurger", function()
 					flags = 8,
 				}, {}, {}, function()
 					TriggerServerEvent('qb-burgershot:create:burgerbleeder')
-                    QBCore.Functions.Notify("You made a Bleeder Burger", "success")
+                    QBCore.Functions.Notify("Vous avez préparé Bleeder Burger", "success")
 				end, function()
-					QBCore.Functions.Notify("Cancelled..", "error")
+					QBCore.Functions.Notify("Annulation..", "error")
 				end)
 			else
-   				QBCore.Functions.Notify("You dont have the ingredients to make this", "error")
+   				QBCore.Functions.Notify("tu n'as pas les ingrédients suffisants", "error")
 			end
 		end)
 	else 
-		QBCore.Functions.Notify("You must be Clocked into work", "error")
+		QBCore.Functions.Notify("Vous devez être en service", "error")
 	end
 end)
 
@@ -159,7 +159,7 @@ RegisterNetEvent("qb-burgershot:MoneyShot", function()
     if onDuty then
     	QBCore.Functions.TriggerCallback('qb-burgershot:server:get:ingredientBurger', function(HasItems)  
     		if HasItems then
-				QBCore.Functions.Progressbar("pickup_sla", "Making Burgers..", 4000, false, false, {
+				QBCore.Functions.Progressbar("pickup_sla", "En train de prépare un Moneyshot Burger..", 4000, false, false, {
 					disableMovement = true,
 					disableCarMovement = true,
 					disableMouse = false,
@@ -170,16 +170,16 @@ RegisterNetEvent("qb-burgershot:MoneyShot", function()
 					flags = 8,
 				}, {}, {}, function()
 					TriggerServerEvent('qb-burgershot:create:burgermoneyshot')
-           			QBCore.Functions.Notify("You made a MoneyShot Burger", "success")
+           			QBCore.Functions.Notify("Vous avez préparé MoneyShot Burger", "success")
 				end, function()
-					QBCore.Functions.Notify("Cancelled..", "error")
+					QBCore.Functions.Notify("Annulation..", "error")
 				end)
 			else
-   				QBCore.Functions.Notify("You dont have the ingredients to make this", "error")
+   				QBCore.Functions.Notify("tu n'as pas les ingrédients suffisants", "error")
 			end
 		end)
 	else 
-		QBCore.Functions.Notify("You must be Clocked into work", "error")
+		QBCore.Functions.Notify("Vous devez être en service", "error")
 	end
 end)
 
@@ -187,7 +187,7 @@ RegisterNetEvent("qb-burgershot:HeartStopper", function()
     if onDuty then
     	QBCore.Functions.TriggerCallback('qb-burgershot:server:get:ingredientBurger', function(HasItems)  
     		if HasItems then
-				QBCore.Functions.Progressbar("pickup_sla", "Making Burgers..", 4000, false, false, {
+				QBCore.Functions.Progressbar("pickup_sla", "En train de prépare un HeartStopper..", 4000, false, false, {
 					disableMovement = true,
 					disableCarMovement = true,
 					disableMouse = false,
@@ -198,16 +198,16 @@ RegisterNetEvent("qb-burgershot:HeartStopper", function()
 					flags = 8,
 				}, {}, {}, function()
 					TriggerServerEvent('qb-burgershot:create:burgerheartstopper')
-           			QBCore.Functions.Notify("You made a Heart Stopper", "success")
+           			QBCore.Functions.Notify("Vous avez préparé Heart Stopper", "success")
 				end, function()
-					QBCore.Functions.Notify("Cancelled..", "error")
+					QBCore.Functions.Notify("Annulation..", "error")
 				end)
 			else
-   				QBCore.Functions.Notify("You dont have the ingredients to make this", "error")
+   				QBCore.Functions.Notify("tu n'as pas les ingrédients suffisants", "error")
 			end
 		end)
 	else 
-		QBCore.Functions.Notify("You must be Clocked into work", "error")
+		QBCore.Functions.Notify("Vous devez être en service", "error")
 	end
 end)
 
@@ -215,7 +215,7 @@ RegisterNetEvent("qb-burgershot:Torpedo", function()
     if onDuty then
     	QBCore.Functions.TriggerCallback('qb-burgershot:server:get:ingredientTorpedo', function(HasItems)  
     		if HasItems then
-				QBCore.Functions.Progressbar("pickup_sla", "Making A Torpedo..", 4000, false, false, {
+				QBCore.Functions.Progressbar("pickup_sla", "En train de prépare un Torpedo Roll..", 4000, false, false, {
 					disableMovement = true,
 					disableCarMovement = true,
 					disableMouse = false,
@@ -226,16 +226,16 @@ RegisterNetEvent("qb-burgershot:Torpedo", function()
 					flags = 8,
 				}, {}, {}, function()
 					TriggerServerEvent('qb-burgershot:create:torpedo')
-           			QBCore.Functions.Notify("You made a Torpedo Roll", "success")
+           			QBCore.Functions.Notify("Vous avez préparé Torpedo Roll", "success")
 				end, function()
-					QBCore.Functions.Notify("Cancelled..", "error")
+					QBCore.Functions.Notify("Annulation..", "error")
 				end)
 			else
-   				QBCore.Functions.Notify("You dont have the ingredients to make this", "error")
+   				QBCore.Functions.Notify("tu n'as pas les ingrédients suffisants", "error")
 			end
 		end)
 	else 
-		QBCore.Functions.Notify("You must be Clocked into work", "error")
+		QBCore.Functions.Notify("Vous devez être en service", "error")
 	end  
 end)
 
@@ -243,7 +243,7 @@ RegisterNetEvent("qb-burgershot:MeatFree", function()
     if onDuty then
     	QBCore.Functions.TriggerCallback('qb-burgershot:server:get:ingredientMeatfree', function(HasItems)  
     		if HasItems then
-				QBCore.Functions.Progressbar("pickup_sla", "Making A Meat Free Burger..", 4000, false, false, {
+				QBCore.Functions.Progressbar("pickup_sla", "En train de prépare un Meat Free Burger..", 4000, false, false, {
 					disableMovement = true,
 					disableCarMovement = true,
 					disableMouse = false,
@@ -254,16 +254,16 @@ RegisterNetEvent("qb-burgershot:MeatFree", function()
 					flags = 8,
 				}, {}, {}, function()
 					TriggerServerEvent('qb-burgershot:create:burgermeatfree')
-                   	QBCore.Functions.Notify("You made a Meat Free Burger", "success")
+                   	QBCore.Functions.Notify("Vous avez préparé un Meat Free Burger", "success")
 				end, function()
-					QBCore.Functions.Notify("Cancelled..", "error")
+					QBCore.Functions.Notify("Annulation..", "error")
 				end)
 			else
-   				QBCore.Functions.Notify("You dont have the ingredients to make this", "error")
+   				QBCore.Functions.Notify("tu n'as pas les ingrédients suffisants", "error")
 			end
 		end)
 	else 
-		QBCore.Functions.Notify("You must be Clocked into work", "error")
+		QBCore.Functions.Notify("Vous devez être en service", "error")
 	end  
 end)
 
@@ -273,10 +273,10 @@ RegisterNetEvent("qb-burgershot:SoftDrink", function()
         if HasItem then
            MakeSoftDrink()
         else
-            QBCore.Functions.Notify("You don't have any soda syrup..", "error")
+            QBCore.Functions.Notify("Vous n'avez pas de Soda Concentré..", "error")
         end
     else
-        QBCore.Functions.Notify("You must be Clocked into work", "error")
+        QBCore.Functions.Notify("Vous devez être en service", "error")
     end
 end)
 
@@ -286,10 +286,10 @@ RegisterNetEvent("qb-burgershot:mShake", function()
         if HasItem then
            MakeMShake()
         else
-            QBCore.Functions.Notify("You don't have any Milkshake Formula..", "error")
+            QBCore.Functions.Notify("Vous n'avez pas de Milkshake Concentré..", "error")
         end
     else
-        QBCore.Functions.Notify("You must be Clocked into work", "error")
+        QBCore.Functions.Notify("Vous devez être en service", "error")
     end
 end)
 
@@ -299,10 +299,10 @@ RegisterNetEvent("qb-burgershot:Fries", function()
         if HasItem then
            MakeFries()
         else
-            QBCore.Functions.Notify("You don't have any potatoes..", "error")
+            QBCore.Functions.Notify("Vous n'avez pas de pommes de terre..", "error")
         end
     else
-        QBCore.Functions.Notify("You must be Clocked into work", "error")
+        QBCore.Functions.Notify("Vous devez être en service", "error")
     end
 end)
 
@@ -313,17 +313,17 @@ RegisterNetEvent("qb-burgershot:PattyFry", function()
         if HasItem then
            MakePatty()
         else
-            QBCore.Functions.Notify("You don't have any raw patties..", "error")
+            QBCore.Functions.Notify("Vous n'avez pas de viande hachée crue..", "error")
         end
     else
-        QBCore.Functions.Notify("You must be Clocked into work", "error")
+        QBCore.Functions.Notify("Vous devez être en service", "error")
     end
 end)
 
 -- Functions --
 function MakeFries()
 	TriggerServerEvent('qb-burgershot:remove:potato')
-	QBCore.Functions.Progressbar("pickup", "Frying the fries..", 4000, false, false, {
+	QBCore.Functions.Progressbar("pickup", "En train de frire les frites..", 4000, false, false, {
 	    disableMovement = true,
 	    disableCarMovement = true,
 	    disableMouse = false,
@@ -348,7 +348,7 @@ end
 
 function MakePatty()
 	TriggerServerEvent('qb-burgershot:remove:rawpatty')
-    QBCore.Functions.Progressbar("pickup", "Cooking the Patty..", 4000, false, false, {
+    QBCore.Functions.Progressbar("pickup", "En train de cuire la viande hachée..", 4000, false, false, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -372,7 +372,7 @@ end
 
 function MakeSoftDrink()
 	TriggerServerEvent('qb-burgershot:remove:sodasyrup')
-    QBCore.Functions.Progressbar("pickup", "Filling a cup..", 4000, false, false, {
+    QBCore.Functions.Progressbar("pickup", "En train de remplir le gobelet..", 4000, false, false, {
         disableMovement = true,
         disableCarMovement = false,
         disableMouse = false,
@@ -380,14 +380,13 @@ function MakeSoftDrink()
     })
     Citizen.Wait(4000)
 	TriggerServerEvent('qb-burgershot:add:softdrink')
-    QBCore.Functions.Notify("You made a Soda", "success")
+    QBCore.Functions.Notify("Vous avez préparé Soda", "success")
 end  
 
 
 function MakeMShake()
 	TriggerServerEvent('qb-burgershot:remove:mshakeformula')
-    Player.Functions.RemoveItem("burger-mshakeformula", 1)
-    QBCore.Functions.Progressbar("pickup", "Filling up a cup..", 4000, false, false, {
+    QBCore.Functions.Progressbar("pickup", "En train de remplir le gobelet..", 4000, false, false, {
         disableMovement = true,
         disableCarMovement = false,
         disableMouse = false,
@@ -395,7 +394,7 @@ function MakeMShake()
     })
     Citizen.Wait(4000)
 	TriggerServerEvent('qb-burgershot:add:mshake')
-    QBCore.Functions.Notify("You made a Milkshake", "success")
+    QBCore.Functions.Notify("Vous avez préparé Milkshake", "success")
 end  
    
 RegisterNetEvent("qb-burgershot:shop")
