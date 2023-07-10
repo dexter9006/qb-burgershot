@@ -335,7 +335,7 @@ RegisterNetEvent('qb-burgershot-menu:Burgers', function(data)
         {
             
             header = "• Moneyshot Burger",
-            txt = "Bun , Cooked Patty , Tomato , Lettuce",
+            txt = "Bun , Viande hachée cuite , Tomate , Laitue",
             params = {
                 event = "qb-burgershot:MoneyShot"
             }
@@ -343,7 +343,7 @@ RegisterNetEvent('qb-burgershot-menu:Burgers', function(data)
         {
             
             header = "• Meat Free Burger",
-            txt = "Bun , Tomato , Lettuce",
+            txt = "Bun , Tomate , Laitue",
             params = {
                 event = "qb-burgershot:MeatFree"
             }
@@ -351,7 +351,7 @@ RegisterNetEvent('qb-burgershot-menu:Burgers', function(data)
         {
             
             header = "• Bleeder Burger",
-            txt = "Bun , Cooked Patty , Tomato , Lettuce",
+            txt = "Bun , Viande hachée cuite , Tomate , Laitue",
             params = {
                 event = "qb-burgershot:BleederBurger"
             }
@@ -359,7 +359,7 @@ RegisterNetEvent('qb-burgershot-menu:Burgers', function(data)
         {
             
             header = "• The Heart Stopper",
-            txt = "Bun , Cooked Patty , Tomato , Lettuce",
+            txt = "Bun , Viande hachée cuite , Tomate , Laitue",
             params = {
                 event = "qb-burgershot:HeartStopper"
             }
@@ -367,7 +367,7 @@ RegisterNetEvent('qb-burgershot-menu:Burgers', function(data)
         {
             
             header = "• Torpedo Roll",
-            txt = "Bun , Cooked Meat",
+            txt = "Bun , Viande hachée cuite",
             params = {
                 event = "qb-burgershot:Torpedo"
             }
@@ -375,7 +375,7 @@ RegisterNetEvent('qb-burgershot-menu:Burgers', function(data)
         {
             
             header = "• Murder Meal",
-            txt = "The Heart Stopper, Fries and SoftDrink",
+            txt = "Le Heart Stopper, Frite et Soda",
             params = {
                 event = "qb-burgershot:CreateMurderMeal"
             }
@@ -399,7 +399,7 @@ RegisterNetEvent('qb-burgershot-menu:OrderMenu', function(data)
         {
             
             header = "• Acheter Ingrédients",
-            txt = "Order New Ingredients!",
+            txt = "Acheter Ingrédients!",
             params = {
                 event = "qb-burgershot:shop"
             }
@@ -407,7 +407,7 @@ RegisterNetEvent('qb-burgershot-menu:OrderMenu', function(data)
         {
            
             header = "• Ouvrir Frigo",
-            txt = "See what you have in storage",
+            txt = "Voir ce que vous avez en stock",
             params = {
                 event = "qb-burgershot:Storage2"
             }
@@ -428,16 +428,16 @@ RegisterNetEvent('qb-burgershot-menu:DrinkMenu', function(data)
         },
         {
             
-            header = "• Soft Drinks",
-            txt = "Soda Syrup",
+            header = "• Soda",
+            txt = "Soda Concentré",
             params = {
                 event = "qb-burgershot:SoftDrink"
             }
         },
         {
             
-            header = "• Milkshakes",
-            txt = "Milkshake Formula",
+            header = "• Milkshake",
+            txt = "Milkshake Concentré",
             params = {
                 event = "qb-burgershot:mShake"
             }
