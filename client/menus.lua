@@ -9,19 +9,6 @@ local onDuty = false
 
 Citizen.CreateThread(function()
 
-    exports['qb-target']:AddTargetModel(`ig_floyd`, {
-        options = {
-            {
-                type = "client",
-                event = "garage:BurgerShotGarage",
-                icon = "fas fa-car",
-                label = "BurgerShot Garage",
-                job = Config.Job,
-            },
-        },
-        distance = 2.5
-    })
-
 	exports['qb-target']:AddBoxZone("BurgerShotDuty", vector3(-1196.95, -902.69, 14.0), 1, 1.2, {
 		name = "BurgerShotDuty",
 		heading = 32,
@@ -40,10 +27,10 @@ Citizen.CreateThread(function()
 		distance = 1.5
 	})
 
-		exports['qb-target']:AddBoxZone("burger_tray_1", vector3(-1195.29, -892.31, 14.0), 1.05, 1.0, {
+		exports['qb-target']:AddBoxZone("burger_tray_1", vector3(-1195.29, -892.31, 14.0), 0.5, 0.7, {
 			name = "burger_tray_1",
-			heading = 35.0,
-			debugPoly = false,
+			heading=125.0,
+			debugPoly = true,
 			minZ=13.8,
 			maxZ=14.3,
 		}, {
@@ -57,12 +44,12 @@ Citizen.CreateThread(function()
 			distance = 1.5
 		})
 
-	exports['qb-target']:AddBoxZone("burger_tray_2", vector3(-1193.87, -894.38, 14.0), 0.5, 0.7, {
-		name="burger_tray_2",
-		heading=318,
-		debugPoly=false,
-		minZ=14.0,
-		maxZ=14.4,
+	exports['qb-target']:AddBoxZone("burger_tray_2", vector3(-1194.03, -894.24, 14.0), 0.5, 0.7, {
+		name = "burger_tray_2",
+		heading=125.0,
+		debugPoly=true,
+		minZ=13.8,
+		maxZ=14.3,
 	}, {
 		options = {
 		    {
