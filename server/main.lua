@@ -139,8 +139,8 @@ RegisterNetEvent('qb-burgershot:create:burgermeatfree', function()
     Player.Functions.RemoveItem("burger-bun",1)
     TriggerClientEvent("inventory:client:ItemBox", src, QBCore.Shared.Items["burger-bun"], "remove")
     
-    Player.Functions.AddItem("burger-meatfre", 1)
-    TriggerClientEvent("inventory:client:ItemBox", src, QBCore.Shared.Items["burger-meatfre"], "add")
+    Player.Functions.AddItem("burger-meatfree", 1)
+    TriggerClientEvent("inventory:client:ItemBox", src, QBCore.Shared.Items["burger-meatfree"], "add")
 end)
 
 QBCore.Functions.CreateCallback('qb-burgershot:server:get:ingredientBurger', function(source, cb)
