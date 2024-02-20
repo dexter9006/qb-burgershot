@@ -285,11 +285,12 @@ AddEventHandler("qb-burgershot:bill:player", function(playerId, amount)
                         TriggerClientEvent('qb-phone:RefreshPhone', billed.PlayerData.source)
                         TriggerClientEvent('QBCore:Notify', source, 'Invoice Successfully Sent', 'success')
                         TriggerClientEvent('QBCore:Notify', billed.PlayerData.source, 'New Invoice Received')
+                        --TriggerClientEvent("qb-phone:client:CustomNotification", "Nouvelle facture", "Vous avez reçu une nouvelle facture ()", "fa-solid fa-file-invoice-dollar", "#04b543", 1500)
                     else
                         TriggerClientEvent('QBCore:Notify', source, 'Must Be A Valid Amount Above 0', 'error')
                     end
                 else
-                    TriggerClientEvent('QBCore:Notify', source, 'You Cannot Bill Yourself', 'error')
+                    TriggerClientEvent('QBCore:Notify', source, 'You Cannot Bill Yourself', 'error')   
                 end
             else
                 TriggerClientEvent('QBCore:Notify', source, 'Player Not Online', 'error')
